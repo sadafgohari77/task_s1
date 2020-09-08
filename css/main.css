@@ -1,6 +1,7 @@
-body{
+body {
   direction: rtl;
 }
+
 div {
   text-align: center;
 }
@@ -10,7 +11,6 @@ p {
   font-size: medium;
   font-style: italic;
   padding: 20px;
-  text-align: center;
   color: cornflowerblue;
 }
 
@@ -18,32 +18,38 @@ h3 {
   color: #2f2f2f;
 }
 
-.nav-bar-header {
+.nav-bar {
   background-color: black;
   display: flex;
   flex-flow: row nowrap;
   width: 100%;
 }
 
-.img-header {
+.nav-bar-img-size {
   width: 60px;
   height: 60px;
 }
 
-.a-color {
+.nav-bar-p-color {
   color: #ff3d6a;
 }
 
-.a-color:hover {
+.nav-bar-p-color:hover {
   color: #50ff3d;
 }
 
 .main-grid {
   margin-top: 10px;
-  display: flex;
-  flex-flow: row wrap;
-  grid-gap: 20px;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2px;
+  justify-items: center;
+}
+
+@media(max-width: 425px){
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .item-grid {
@@ -54,41 +60,40 @@ h3 {
 
 .upper-text {
   text-transform: uppercase;
+}
+
+.main-grid-item-padding {
   padding-top: 10px;
 }
 
-.form-main {
+.form-style {
   margin-top: 20px;
   background-color: #7a7a7a;
   width: 500px;
   margin-bottom: 20px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.item-form-main {
-  padding: 5px;
-}
-
-.drop-down-main {
+.drop-down-width {
   width: 100px;
 }
 
-.radio-btn-main {
-  display: block;
+.radio-button-style {
   border-color: #555555;
   font-max-size:24px ;
   font-min-size: 10px;
 }
 
-.btn-form-main {
+.form-button-style {
   width: 200px;
   height: 30px;
   background-color: #b8ff68;
 }
 
-.table-main {
+.table-style {
   width: 500px;
   background-color: #b8ff68;
   text-align: center;
@@ -96,11 +101,11 @@ h3 {
   opacity: 50%;
 }
 
-.option-drop-main:hover {
+.option-drop-color:hover {
   color: crimson;
 }
 
-.radio-btn-main {
+.radio-button-style {
   display: block;
   border-color: #555555;
   font-max-size:24px ;
@@ -130,33 +135,18 @@ h3 {
   font-style: italic;
 }
 
-.one {
-   flex-basis: 300px;
-   order: 1;
-}
-
-.two {
-  flex-basis: 400px;
-  flex-grow: 3;
-}
-
-.three {
-  flex-basis: 500px;
-}
-
-.progress-main {
+.progress-style {
   width: 80%;
   color: #ffd83d;
 }
 
-footer {
+.footer-style {
   background-color: coral;
   width: 100%;
   height: 200px;
 }
 
-.p-footer {
-  justify-content: center;
+.footer-p-style{
   text-align: center;
   font-size: xx-large;
 }
