@@ -1,0 +1,162 @@
+body{
+  direction: rtl;
+}
+div {
+  text-align: center;
+}
+
+p {
+  font-family: Georgia;
+  font-size: medium;
+  font-style: italic;
+  padding: 20px;
+  text-align: center;
+  color: cornflowerblue;
+}
+
+h3 {
+  color: #2f2f2f;
+}
+
+.nav-bar-header {
+  background-color: black;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+}
+
+.img-header {
+  width: 60px;
+  height: 60px;
+}
+
+.a-color {
+  color: #ff3d6a;
+}
+
+.a-color:hover {
+  color: #50ff3d;
+}
+
+.main-grid {
+  margin-top: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  grid-gap: 20px;
+  justify-content: center;
+}
+
+.item-grid {
+  width: 300px;
+  height: 300px;
+  background-color: #59599d;
+}
+
+.upper-text {
+  text-transform: uppercase;
+  padding-top: 10px;
+}
+
+.form-main {
+  margin-top: 20px;
+  background-color: #7a7a7a;
+  width: 500px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item-form-main {
+  padding: 5px;
+}
+
+.drop-down-main {
+  width: 100px;
+}
+
+.radio-btn-main {
+  display: block;
+  border-color: #555555;
+  font-max-size:24px ;
+  font-min-size: 10px;
+}
+
+.btn-form-main {
+  width: 200px;
+  height: 30px;
+  background-color: #b8ff68;
+}
+
+.table-main {
+  width: 500px;
+  background-color: #b8ff68;
+  text-align: center;
+  border-color: white;
+  opacity: 50%;
+}
+
+.option-drop-main:hover {
+  color: crimson;
+}
+
+.radio-btn-main {
+  display: block;
+  border-color: #555555;
+  font-max-size:24px ;
+  font-min-size: 10px;
+}
+.option-drop-main {
+  font-size: medium;
+  color: #888888;
+  width: 100px;
+}
+
+.flex-main {
+  width: 800px;
+  margin: auto 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-item {
+  margin: 10px 15px;
+  border: 2px solid crimson;
+  background-color: tomato;
+  text-align: center;
+  color: #2f2f2f;
+  font-size: xx-large;
+  font-style: italic;
+}
+
+.one {
+   flex-basis: 300px;
+   order: 1;
+}
+
+.two {
+  flex-basis: 400px;
+  flex-grow: 3;
+}
+
+.three {
+  flex-basis: 500px;
+}
+
+.progress-main {
+  width: 80%;
+  color: #ffd83d;
+}
+
+footer {
+  background-color: coral;
+  width: 100%;
+  height: 200px;
+}
+
+.p-footer {
+  justify-content: center;
+  text-align: center;
+  font-size: xx-large;
+}
