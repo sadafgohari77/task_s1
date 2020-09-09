@@ -30,7 +30,7 @@ h3 {
   height: 60px;
 }
 
-.nav-bar-p-color {
+.nav-bar-a-color-red{
   color: #ff3d6a;
 }
 
@@ -52,7 +52,7 @@ h3 {
   }
 }
 
-.item-grid {
+.grid-item-style {
   width: 300px;
   height: 300px;
   background-color: #59599d;
@@ -101,7 +101,7 @@ h3 {
   opacity: 50%;
 }
 
-.option-drop-color:hover {
+.option-drop-color-red:hover {
   color: crimson;
 }
 
@@ -146,7 +146,7 @@ h3 {
   height: 200px;
 }
 
-.footer-p-style{
+.footer-p-style {
   text-align: center;
   font-size: xx-large;
 }
